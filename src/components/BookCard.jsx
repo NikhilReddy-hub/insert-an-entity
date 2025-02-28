@@ -8,7 +8,7 @@ const BookCard = ({ book }) => {
 
   return (
     <div className="book-card">
-      <img src={coverImage} alt={`${title} cover`} className="book-cover" />
+      <img src={coverImage} alt={`${title} cover`} className="book-cover"/>
       <div className="book-details">
         <h2 className="book-title">{title}</h2>
         <h3 className="book-author">by {author}</h3>
@@ -18,4 +18,4 @@ const BookCard = ({ book }) => {
   );
 };
 
-export default BookCard;
+export default BookCard;
